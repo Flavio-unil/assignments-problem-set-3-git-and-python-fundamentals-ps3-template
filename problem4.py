@@ -28,7 +28,7 @@ def count_words(filename):
     """
     with open(filename, 'r', encoding='utf-8') as f:
         text = f.read()
-    # découpe sur les espaces/blancs
+    # découpe sur les espaces/  blancs
     return len(text.split())
 
 
